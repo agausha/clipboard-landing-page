@@ -59,23 +59,23 @@ $fs-xxxlarge: 5rem;
 // $bp-medium: 950px;
 // $bp-small: 600px;
 
-// *,
-// *::before,
-// *::after {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: inherit;
-//   border: 0;
-//   align-items: center;
-//   max-width: 100%;
-// }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: 0;
+  align-items: center;
+  max-width: 100%;
+}
 
-// html {
-//   box-sizing: border-box;
-//   font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
-// }
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+}
 
-// body {
-//   font-family: 'Bai Jamjuree', sans-serif;
-//   font-weight: 400;
-// }
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
+}
