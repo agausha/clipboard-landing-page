@@ -1,0 +1,98 @@
+// /////////////////////////////////////////
+// //CALL TO ACTION
+// .cta {
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 5rem;
+//   margin-bottom: 10rem;
+
+//   &__ios {
+//     display: inline-block;
+//     text-decoration: none;
+//     text-align: center;
+//     padding: 1.5rem 4rem;
+//     border-radius: 10rem;
+//     font-size: 1.8rem;
+//     margin-right: 2rem;
+//     color: $color-neutral-white;
+//     background: $color-primary-strong-cyan;
+//     border-bottom: 3.5px solid
+//       rgba(
+//         $color-strong-cyan-hue,
+//         $color-strong-cyan-sat,
+//         $color-strong-cyan-light,
+//         0.5
+//       );
+//     box-shadow: 0 1rem 2rem rgba($color-primary-strong-cyan, 0.3);
+//     transition: all 0.2s;
+
+//     &:hover {
+//       background: $color-primary-light-cyan;
+//       color: $color-neutral-white;
+//       border-bottom: 3.5px solid
+//         rgba(
+//           $color-light-cyan-hue,
+//           $color-light-cyan-sat,
+//           $color-light-cyan-light,
+//           0.5
+//         );
+//       box-shadow: 0 1rem 2rem rgba($color-primary-light-cyan, 0.3);
+//     }
+//   }
+
+//   &__mac {
+//     display: inline-block;
+//     text-decoration: none;
+//     text-align: center;
+//     padding: 1.5rem 4rem;
+//     border-radius: 10rem;
+//     font-size: 1.8rem;
+//     color: $color-neutral-white;
+//     background: $color-primary-light-blue;
+//     border-bottom: 3.5px solid
+//       rgba(
+//         $color-light-blue-hue,
+//         $color-light-blue-sat,
+//         $color-light-blue-light,
+//         0.3
+//       );
+//     box-shadow: 0 1rem 2rem rgba($color-primary-light-blue, 0.3);
+//     transition: all 0.2s;
+
+//     &:hover {
+//       background: $color-primary-lighter-blue;
+//       color: $color-neutral-white;
+//       border-bottom: 3.5px solid
+//         rgba(
+//           $color-light-blue-hue,
+//           $color-light-blue-sat,
+//           $color-light-blue-light,
+//           0.3
+//         );
+//       box-shadow: 0 1rem 2rem rgba($color-primary-light-blue, 0.3);
+//     }
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //MEDIA QUERIES
+
+// .cta {
+//   @media screen and (max-width: $bp-small) {
+//     flex-direction: column;
+//   }
+
+//   &__mac {
+//     @media screen and (max-width: $bp-small) {
+//       margin-top: 2rem;
+//       margin-left: -2rem;
+//     }
+//   }
+
+//   &__ios,
+//   &__mac {
+//     @media screen and (max-width: $bp-small) {
+//       padding: 1.5rem 8rem;
+//     }
+//   }
+// }

@@ -1,0 +1,402 @@
+// /////////////////////////////////////////////////
+// //KEEP TRACK
+// .track {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 15rem;
+
+//   &__detail {
+//     max-width: 52%;
+//     text-align: center;
+//   }
+
+//   &__title--main {
+//     text-align: center;
+//     font-size: $fs-xxxlarge;
+//     margin-bottom: 2rem;
+//     font-weight: 600;
+//     color: $color-neutral-very-dark-cyan;
+//   }
+
+//   &__text--main {
+//     font-size: $fs-xmedium;
+//     line-height: 1.6;
+//     text-align: center;
+//     color: $color-primary-grayish-blue;
+//   }
+
+//   &__items {
+//     display: flex;
+//     margin-top: 8rem;
+//   }
+
+//   &__images {
+//     object-fit: cover;
+//   }
+
+//   &__description {
+//     width: 50rem;
+//     margin-top: -5rem;
+//     margin-left: 10rem;
+//   }
+
+//   &__title {
+//     font-size: $fs-large;
+//     font-weight: 600;
+//     color: $color-neutral-very-dark-cyan;
+//     margin-top: 2rem;
+//     margin-bottom: 1.5rem;
+//   }
+
+//   &__text {
+//     font-size: $fs-small;
+//     color: $color-primary-grayish-blue;
+//     max-width: 60%;
+//     line-height: 1.8;
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //ACCESS CLIPBOARD
+// .access {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 15rem;
+
+//   &__title {
+//     font-size: $fs-xxlarge;
+//     text-align: center;
+//     font-weight: 600;
+//     color: $color-neutral-very-dark-cyan;
+//   }
+
+//   &__text {
+//     font-size: $fs-xmedium;
+//     line-height: 1.6;
+//     margin-top: 2.5rem;
+//     text-align: center;
+//     color: $color-primary-grayish-blue;
+//     max-width: 50%;
+//   }
+
+//   &__images {
+//     margin-top: 10rem;
+//     object-fit: cover;
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //WORKFLOW
+// .workflow {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin-top: 5rem;
+
+//   &__title--main {
+//     font-size: $fs-xxlarge;
+//     text-align: center;
+//     font-weight: 600;
+//     color: $color-neutral-very-dark-cyan;
+//     margin-bottom: 2.5rem;
+//   }
+
+//   &__text--main {
+//     font-size: $fs-xmedium;
+//     color: $color-primary-grayish-blue;
+//     margin-bottom: 8rem;
+//   }
+
+//   &__content {
+//     display: flex;
+//     max-width: 85%;
+//   }
+
+//   &__icons {
+//     text-align: center;
+//   }
+
+//   &__details {
+//     margin-top: 3.5rem;
+//   }
+
+//   &__title {
+//     font-size: $fs-large;
+//     text-align: center;
+//     font-weight: 600;
+//     color: $color-neutral-very-dark-cyan;
+//     margin-bottom: 1.5rem;
+//   }
+
+//   &__text {
+//     font-size: $fs-medium;
+//     color: $color-primary-grayish-blue;
+//     line-height: 1.7;
+//     text-align: center;
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //LOGO GALLERY
+// .gallery {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+//   align-items: center;
+//   width: 100%;
+//   margin-top: 15rem;
+// }
+
+// /////////////////////////////////////////////////
+// //OPERATING SYSTEM (OS)
+// .apple {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   margin-top: 15rem;
+
+//   &__title {
+//     font-size: $fs-xxlarge;
+//     text-align: center;
+//     font-weight: 600;
+//     margin-bottom: 2.5rem;
+//     color: $color-neutral-very-dark-cyan;
+//   }
+
+//   &__text {
+//     font-size: $fs-xmedium;
+//     color: $color-primary-grayish-blue;
+//     line-height: 1.6;
+//     max-width: 52%;
+//     margin-top: 0.5rem;
+//     text-align: center;
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //FOOTER
+// .footer {
+//   background: $color-primary-light-grayish-blue;
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 2rem 10rem;
+//   margin-top: 5rem;
+
+//   &__logo {
+//     margin-top: 3rem;
+//     margin-right: 10rem;
+//     width: 6rem;
+//     height: 6rem;
+//   }
+
+//   &__navbar {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   &__item {
+//     list-style: none;
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 2.5rem 0.5rem;
+//     font-size: $fs-xxmedium;
+//     margin-top: 3rem;
+//   }
+
+//   &__link {
+//     text-decoration: none;
+//     color: $color-neutral-very-dark-cyan;
+//     padding: 2rem;
+
+//     &:hover {
+//       color: $color-primary-strong-cyan;
+//     }
+//   }
+
+//   &__social {
+//     list-style: none;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   &__icon {
+//     padding: 1rem;
+//     &:hover {
+//       path {
+//         fill: $color-primary-strong-cyan;
+//       }
+//     }
+//   }
+// }
+
+// /////////////////////////////////////////////////
+// //MEDIA QUERIES
+// .track {
+//   &__detail {
+//     @media screen and (max-width: $bp-medium) {
+//       max-width: 93%;
+//     }
+//   }
+
+//   &__title--main {
+//     @media screen and (max-width: $bp-medium) {
+//       font-size: $fs-xlarge;
+//     }
+//   }
+
+//   &__text--main {
+//     @media screen and (max-width: $bp-medium) {
+//       margin: 0.4rem;
+//     }
+//   }
+
+//   &__items {
+//     @media screen and (max-width: $bp-larger) {
+//       flex-direction: column;
+//       text-align: center;
+//       max-width: 100%;
+//     }
+//   }
+//   &__images {
+//     @media screen and (max-width: $bp-larger) {
+//       margin: 2rem;
+//     }
+//   }
+//   &__description {
+//     @media screen and (max-width: $bp-larger) {
+//       margin-top: 2rem;
+//       width: 30rem;
+//     }
+//   }
+
+//   &__title {
+//     @media screen and (max-width: $bp-larger) {
+//       margin-left: -5rem;
+//     }
+//   }
+
+//   &__text {
+//     @media screen and (max-width: $bp-larger) {
+//       margin-left: -5rem;
+//       max-width: 100%;
+//     }
+//   }
+// }
+// .access {
+//   &__title {
+//     @media screen and (max-width: $bp-medium) {
+//       font-size: $fs-xlarge;
+//       max-width: 70%;
+//     }
+//   }
+//   &__text {
+//     @media screen and (max-width: $bp-medium) {
+//       max-width: 100%;
+//       margin: 1.5rem;
+//     }
+//   }
+// }
+
+// .workflow {
+//   &__title--main {
+//     @media screen and (max-width: $bp-medium) {
+//       font-size: $fs-xlarge;
+//       max-width: 70%;
+//       line-height: 1.3;
+//     }
+//   }
+//   &__text--main {
+//     @media screen and (max-width: $bp-medium) {
+//       max-width: 80%;
+//       text-align: center;
+//       line-height: 1.6;
+//     }
+//   }
+//   &__content {
+//     @media screen and (max-width: $bp-medium) {
+//       flex-direction: column;
+//       max-width: 90%;
+//     }
+//   }
+
+//   &__icons {
+//     @media screen and (max-width: $bp-medium) {
+//       margin-top: 4rem;
+//     }
+//   }
+// }
+
+// .gallery {
+//   @media screen and (max-width: $bp-medium) {
+//     flex-direction: column;
+//     margin-top: 10rem;
+//   }
+
+//   &__logo {
+//     @media screen and (max-width: $bp-medium) {
+//       margin: 4rem;
+//     }
+//   }
+// }
+
+// .apple {
+//   &__title {
+//     @media screen and (max-width: $bp-medium) {
+//       font-size: $fs-large;
+//       margin-bottom: 0.1rem;
+//       width: 70%;
+//     }
+//   }
+//   &__text {
+//     @media screen and (max-width: $bp-medium) {
+//       max-width: 95%;
+//       font-size: $fs-medium;
+//       margin-bottom: 0.1rem;
+//       margin: 2.5rem;
+//     }
+//   }
+// }
+
+// .footer {
+//   @media screen and (max-width: $bp-large) {
+//     flex-direction: column;
+//   }
+
+//   &__navbar {
+//     @media screen and (max-width: $bp-large) {
+//       flex-direction: column;
+//     }
+//   }
+
+//   &__logo {
+//     @media screen and (max-width: $bp-large) {
+//       margin-left: 10rem;
+//     }
+//   }
+
+//   &__item {
+//     @media screen and (max-width: $bp-large) {
+//       grid-template-columns: 1fr;
+//       text-align: center;
+//     }
+//   }
+
+//   &__social {
+//     @media screen and (max-width: $bp-large) {
+//       margin: 5rem 0;
+//     }
+//   }
+
+//   &__icon {
+//     @media screen and (max-width: $bp-large) {
+//       padding: 2rem;
+//     }
+//   }
+// }
