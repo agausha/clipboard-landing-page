@@ -1,5 +1,6 @@
 /////////////////////////////////////////
 //PRIMARY COLORS
+
 $color-primary-pink: hsl(322, 100%, 66%);
 $color-primary-light-pink: hsl(321, 100%, 78%);
 $color-primary-light-red: hsl(0, 100%, 63%);
@@ -13,24 +14,26 @@ $color-primary-light-cyan: hsl(171, 26%, 41%);
 
 /////////////////////////////////////////
 //BORDER BOTTOM COLORS FOR iOS
+
 $color-strong-cyan-hue: 171;
 $color-strong-cyan-sat: 66%;
 $color-strong-cyan-light: 44%;
 
 /////////////////////////////////////////
 //BORDER BOTTOM COLORS FOR iOS HOVER
+
 $color-light-cyan-hue: 171;
 $color-light-cyan-sat: 47%;
 $color-light-cyan-light: 60%;
 
 /////////////////////////////////////////
-//BORDER BOTTOM COLORS FOR Mac
+//BORDER BOTTOM COLORS FOR MAC
 $color-light-blue-hue: 233;
 $color-light-blue-sat: 100%;
 $color-light-blue-light: 69%;
 
 /////////////////////////////////////////
-//BORDER BOTTOM COLORS FOR Mac HOVER
+//BORDER BOTTOM COLORS FOR MAC HOVER
 $color-light-blue-hue: 233;
 $color-light-blue-sat: 39%;
 $color-light-blue-light: 36%;
@@ -53,11 +56,12 @@ $fs-xxlarge: 4rem;
 $fs-xxxlarge: 5rem;
 
 // /////////////////////////////////////////
-// //RESPONSIVE BREAKPOINTS
-// $bp-larger: 1200px;
-// $bp-large: 1000px;
-// $bp-medium: 950px;
-// $bp-small: 600px;
+//RESPONSIVE BREAKPOINTS
+
+$bp-larger: 1200px;
+$bp-large: 1000px;
+$bp-medium: 950px;
+$bp-small: 600px;
 
 *,
 *::before,
