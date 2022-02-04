@@ -23,6 +23,11 @@ body {
   font-weight: 400;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 140rem;
+}
+
 .cta {
   display: -webkit-box;
   display: -ms-flexbox;
