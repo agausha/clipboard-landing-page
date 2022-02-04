@@ -43,19 +43,20 @@
 }
 
 
-// /////////////////////////////////////////////////
-// //MEDIA QUERIES
-// .container .header {
-//   &__title {
-//     @media screen and (max-width: $bp-medium) {
-//       font-size: $fs-xlarge;
-//       max-width: 85%;
-//     }
-//   }
-//   &__text {
-//     @media screen and (max-width: $bp-medium) {
-//       max-width: 95%;
-//       margin: 1.5rem;
-//     }
-//   }
-// }
+/////////////////////////////////////////////////
+//MEDIA QUERIES
+
+.container .header {
+  &__title {
+    @media screen and (max-width: $bp-medium) {
+      font-size: $fs-xlarge;
+      max-width: 85%;
+    }
+  }
+  &__text {
+    @media screen and (max-width: $bp-medium) {
+      max-width: 95%;
+      margin: 1.5rem;
+    }
+  }
+}

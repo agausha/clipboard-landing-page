@@ -367,6 +367,20 @@ body {
   color: #9fabb2;
 }
 
+@media screen and (max-width: 950px) {
+  .container .header__title {
+    font-size: 3rem;
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container .header__text {
+    max-width: 95%;
+    margin: 1.5rem;
+  }
+}
+
 .cta {
   display: -webkit-box;
   display: -ms-flexbox;
