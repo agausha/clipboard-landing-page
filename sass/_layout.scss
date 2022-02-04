@@ -2,44 +2,44 @@
   margin: 0 auto;
   max-width: 140rem;
 
-//   /////////////////////////////////////////////////
-//   //LOGO
-//   .logo {
-//     margin-top: 15rem;
-//   }
+  /////////////////////////////////////////////////
+  //LOGO
+  .logo {
+    margin-top: 15rem;
+  }
 
-//   /////////////////////////////////////////////////
-//   //HEADER
-//   .header {
-//     background-image: url('/images/bg-header-desktop.png');
-//     background-size: cover;
-//     background-position: center;
-//     background-repeat: no-repeat;
+  /////////////////////////////////////////////////
+  //HEADER
+  .header {
+    background-image: url('/images/bg-header-desktop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-//     &__content {
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//     }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
-//     &__title {
-//       margin-top: 5rem;
-//       font-size: $fs-xxxlarge;
-//       text-align: center;
-//       font-weight: 600;
-//       color: $color-neutral-very-dark-cyan;
-//     }
+    &__title {
+      margin-top: 5rem;
+      font-size: $fs-xxxlarge;
+      text-align: center;
+      font-weight: 600;
+      color: $color-neutral-very-dark-cyan;
+    }
 
-//     &__text {
-//       margin-top: 2rem;
-//       font-size: $fs-xmedium;
-//       line-height: 1.6;
-//       max-width: 48%;
-//       text-align: center;
-//       color: $color-primary-grayish-blue;
-//     }
-//   }
+    &__text {
+      margin-top: 2rem;
+      font-size: $fs-xmedium;
+      line-height: 1.6;
+      max-width: 48%;
+      text-align: center;
+      color: $color-primary-grayish-blue;
+    }
+  }
    }
 
 // /////////////////////////////////////////////////
