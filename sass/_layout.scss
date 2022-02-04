@@ -16,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    &__content {
+&__content {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -40,7 +40,8 @@
       color: $color-primary-grayish-blue;
     }
   }
-   }
+}
+
 
 // /////////////////////////////////////////////////
 // //MEDIA QUERIES
