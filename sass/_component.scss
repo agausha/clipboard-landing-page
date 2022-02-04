@@ -61,34 +61,35 @@
 
 // /////////////////////////////////////////////////
 // //ACCESS CLIPBOARD
-// .access {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   margin-top: 15rem;
 
-//   &__title {
-//     font-size: $fs-xxlarge;
-//     text-align: center;
-//     font-weight: 600;
-//     color: $color-neutral-very-dark-cyan;
-//   }
+.access {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
 
-//   &__text {
-//     font-size: $fs-xmedium;
-//     line-height: 1.6;
-//     margin-top: 2.5rem;
-//     text-align: center;
-//     color: $color-primary-grayish-blue;
-//     max-width: 50%;
-//   }
+  &__title {
+    font-size: $fs-xxlarge;
+    text-align: center;
+    font-weight: 600;
+    color: $color-neutral-very-dark-cyan;
+  }
 
-//   &__images {
-//     margin-top: 10rem;
-//     object-fit: cover;
-//   }
-// }
+  &__text {
+    font-size: $fs-xmedium;
+    line-height: 1.6;
+    margin-top: 2.5rem;
+    text-align: center;
+    color: $color-primary-grayish-blue;
+    max-width: 50%;
+  }
+
+  &__images {
+    margin-top: 10rem;
+    object-fit: cover;
+  }
+}
 
 // /////////////////////////////////////////////////
 // //WORKFLOW
