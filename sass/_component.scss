@@ -186,61 +186,62 @@
 
 // /////////////////////////////////////////////////
 // //FOOTER
-// .footer {
-//   background: $color-primary-light-grayish-blue;
-//   display: flex;
-//   justify-content: space-between;
-//   padding: 2rem 10rem;
-//   margin-top: 5rem;
 
-//   &__logo {
-//     margin-top: 3rem;
-//     margin-right: 10rem;
-//     width: 6rem;
-//     height: 6rem;
-//   }
+.footer {
+  background: $color-primary-light-grayish-blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+  margin-top: 5rem;
 
-//   &__navbar {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
+  &__logo {
+    margin-top: 3rem;
+    margin-right: 10rem;
+    width: 6rem;
+    height: 6rem;
+  }
 
-//   &__item {
-//     list-style: none;
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     grid-gap: 2.5rem 0.5rem;
-//     font-size: $fs-xxmedium;
-//     margin-top: 3rem;
-//   }
+  &__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-//   &__link {
-//     text-decoration: none;
-//     color: $color-neutral-very-dark-cyan;
-//     padding: 2rem;
+  &__item {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem 0.5rem;
+    font-size: $fs-xxmedium;
+    margin-top: 3rem;
+  }
 
-//     &:hover {
-//       color: $color-primary-strong-cyan;
-//     }
-//   }
+  &__link {
+    text-decoration: none;
+    color: $color-neutral-very-dark-cyan;
+    padding: 2rem;
 
-//   &__social {
-//     list-style: none;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
+    &:hover {
+      color: $color-primary-strong-cyan;
+    }
+  }
 
-//   &__icon {
-//     padding: 1rem;
-//     &:hover {
-//       path {
-//         fill: $color-primary-strong-cyan;
-//       }
-//     }
-//   }
-// }
+  &__social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    padding: 1rem;
+    &:hover {
+      path {
+        fill: $color-primary-strong-cyan;
+      }
+    }
+  }
+}
 
 // /////////////////////////////////////////////////
 // //MEDIA QUERIES
