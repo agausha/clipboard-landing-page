@@ -1,62 +1,63 @@
 // /////////////////////////////////////////////////
 // //KEEP TRACK
-// .track {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   margin-top: 15rem;
 
-//   &__detail {
-//     max-width: 52%;
-//     text-align: center;
-//   }
+.track {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
 
-//   &__title--main {
-//     text-align: center;
-//     font-size: $fs-xxxlarge;
-//     margin-bottom: 2rem;
-//     font-weight: 600;
-//     color: $color-neutral-very-dark-cyan;
-//   }
+  &__detail {
+    max-width: 52%;
+    text-align: center;
+  }
 
-//   &__text--main {
-//     font-size: $fs-xmedium;
-//     line-height: 1.6;
-//     text-align: center;
-//     color: $color-primary-grayish-blue;
-//   }
+  &__title--main {
+    text-align: center;
+    font-size: $fs-xxxlarge;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: $color-neutral-very-dark-cyan;
+  }
 
-//   &__items {
-//     display: flex;
-//     margin-top: 8rem;
-//   }
+  &__text--main {
+    font-size: $fs-xmedium;
+    line-height: 1.6;
+    text-align: center;
+    color: $color-primary-grayish-blue;
+  }
 
-//   &__images {
-//     object-fit: cover;
-//   }
+  &__items {
+    display: flex;
+    margin-top: 8rem;
+  }
 
-//   &__description {
-//     width: 50rem;
-//     margin-top: -5rem;
-//     margin-left: 10rem;
-//   }
+  &__images {
+    object-fit: cover;
+  }
 
-//   &__title {
-//     font-size: $fs-large;
-//     font-weight: 600;
-//     color: $color-neutral-very-dark-cyan;
-//     margin-top: 2rem;
-//     margin-bottom: 1.5rem;
-//   }
+  &__description {
+    width: 50rem;
+    margin-top: -5rem;
+    margin-left: 10rem;
+  }
 
-//   &__text {
-//     font-size: $fs-small;
-//     color: $color-primary-grayish-blue;
-//     max-width: 60%;
-//     line-height: 1.8;
-//   }
-// }
+  &__title {
+    font-size: $fs-large;
+    font-weight: 600;
+    color: $color-neutral-very-dark-cyan;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-size: $fs-small;
+    color: $color-primary-grayish-blue;
+    max-width: 60%;
+    line-height: 1.8;
+  }
+}
 
 // /////////////////////////////////////////////////
 // //ACCESS CLIPBOARD

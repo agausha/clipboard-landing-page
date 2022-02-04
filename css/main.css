@@ -23,6 +23,76 @@ body {
   font-weight: 400;
 }
 
+.track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15rem;
+}
+
+.track__detail {
+  max-width: 52%;
+  text-align: center;
+}
+
+.track__title--main {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #00252e;
+}
+
+.track__text--main {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #9fabb2;
+}
+
+.track__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8rem;
+}
+
+.track__images {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.track__description {
+  width: 50rem;
+  margin-top: -5rem;
+  margin-left: 10rem;
+}
+
+.track__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00252e;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.track__text {
+  font-size: 1.6rem;
+  color: #9fabb2;
+  max-width: 60%;
+  line-height: 1.8;
+}
+
 .container {
   margin: 0 auto;
   max-width: 140rem;
