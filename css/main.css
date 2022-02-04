@@ -445,7 +445,7 @@ body {
 
 @media screen and (max-width: 950px) {
   .apple__text {
-    max-width: 95%;
+    max-width: 80%;
     font-size: 1.7rem;
     margin-bottom: 0.1rem;
     margin: 2.5rem;
@@ -554,7 +554,7 @@ body {
 
 @media screen and (max-width: 950px) {
   .container .header__text {
-    max-width: 90%;
+    max-width: 93%;
     margin: 1.5rem;
   }
 }
