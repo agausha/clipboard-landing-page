@@ -506,10 +506,7 @@ body {
 }
 
 .container .header {
-  background-image: url("/images/bg-header-desktop.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/images/bg-header-desktop.png") no-repeat center center/cover;
 }
 
 .container .header__content {
