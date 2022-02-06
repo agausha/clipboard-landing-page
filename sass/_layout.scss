@@ -5,13 +5,13 @@
   /////////////////////////////////////////////////
   //LOGO
   .logo {
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
 
   /////////////////////////////////////////////////
   //HEADER
   .header {
-    background: url('/images/bg-header-desktop.png') no-repeat center center/cover;
+    background: url('/images/bg-header-desktop.png') no-repeat top / contain;
     
 
 &__content {
