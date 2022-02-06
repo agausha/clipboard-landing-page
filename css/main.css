@@ -50,7 +50,7 @@ body {
   font-size: 5rem;
   margin-bottom: 2rem;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
 }
 
 .track__text--main {
@@ -81,7 +81,7 @@ body {
 .track__title {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -114,7 +114,7 @@ body {
   font-size: 4rem;
   text-align: center;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
 }
 
 .access__text {
@@ -153,7 +153,7 @@ body {
   font-size: 4rem;
   text-align: center;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
   margin-bottom: 2.5rem;
 }
 
@@ -182,7 +182,7 @@ body {
   font-size: 2.5rem;
   text-align: center;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
   margin-bottom: 1.5rem;
 }
 
@@ -233,7 +233,7 @@ body {
   text-align: center;
   font-weight: 600;
   margin-bottom: 2.5rem;
-  color: #00252e;
+  color: #4c545d;
 }
 
 .apple__text {
@@ -289,7 +289,7 @@ body {
 
 .footer__link {
   text-decoration: none;
-  color: #00252e;
+  color: #4c545d;
   padding: 2rem;
 }
 
@@ -530,7 +530,7 @@ body {
   font-size: 5rem;
   text-align: center;
   font-weight: 600;
-  color: #00252e;
+  color: #4c545d;
 }
 
 .container .header__text {
@@ -577,7 +577,7 @@ body {
   margin-right: 2rem;
   color: white;
   background: #26baa4;
-  border-bottom: 3.5px solid rgba(171, 168, 112, 0.5);
+  border-bottom: 3.5px solid #259d89;
   -webkit-box-shadow: 0 1rem 2rem rgba(38, 186, 164, 0.3);
           box-shadow: 0 1rem 2rem rgba(38, 186, 164, 0.3);
   -webkit-transition: all 0.2s;
@@ -585,11 +585,11 @@ body {
 }
 
 .cta__ios:hover {
-  background: #4d847c;
+  background: #5cdbb9;
   color: white;
-  border-bottom: 3.5px solid rgba(171, 120, 153, 0.5);
-  -webkit-box-shadow: 0 1rem 2rem rgba(77, 132, 124, 0.3);
-          box-shadow: 0 1rem 2rem rgba(77, 132, 124, 0.3);
+  border-bottom: 3.5px solid #55b4a4;
+  -webkit-box-shadow: 0 1rem 2rem rgba(38, 186, 164, 0.3);
+          box-shadow: 0 1rem 2rem rgba(38, 186, 164, 0.3);
 }
 
 .cta__mac {
@@ -600,20 +600,20 @@ body {
   border-radius: 10rem;
   font-size: 1.8rem;
   color: white;
-  background: #6173ff;
-  border-bottom: 3.5px solid rgba(233, 99, 92, 0.3);
-  -webkit-box-shadow: 0 1rem 2rem rgba(97, 115, 255, 0.3);
-          box-shadow: 0 1rem 2rem rgba(97, 115, 255, 0.3);
+  background: #7a83e1;
+  border-bottom: 3.5px solid #4e61da;
+  -webkit-box-shadow: 0 1rem 2rem rgba(122, 131, 225, 0.3);
+          box-shadow: 0 1rem 2rem rgba(122, 131, 225, 0.3);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .cta__mac:hover {
-  background: #384080;
+  background: #8593ff;
   color: white;
-  border-bottom: 3.5px solid rgba(233, 99, 92, 0.3);
-  -webkit-box-shadow: 0 1rem 2rem rgba(97, 115, 255, 0.3);
-          box-shadow: 0 1rem 2rem rgba(97, 115, 255, 0.3);
+  border-bottom: 3.5px solid #7a83e1;
+  -webkit-box-shadow: 0 1rem 2rem rgba(122, 131, 225, 0.3);
+          box-shadow: 0 1rem 2rem rgba(122, 131, 225, 0.3);
 }
 
 @media screen and (max-width: 600px) {
