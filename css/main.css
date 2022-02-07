@@ -543,6 +543,12 @@ body {
   color: #9fabb2;
 }
 
+@media screen and (max-width: 600px) {
+  .container .header {
+    background: url("/images/bg-header-mobile.png") no-repeat top/contain;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .container .header__title {
     font-size: 3rem;

@@ -44,7 +44,12 @@
 /////////////////////////////////////////////////
 //MEDIA QUERIES
 
+@media screen and (max-width: $bp-small) {
 .container .header {
+  background: url('/images/bg-header-mobile.png') no-repeat top / contain;
+}
+}
+  .container .header {
   &__title {
     @media screen and (max-width: $bp-medium) {
       font-size: $fs-xlarge;
