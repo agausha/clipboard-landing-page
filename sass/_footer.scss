@@ -22,5 +22,6 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem 0.5rem;
   }
 }
