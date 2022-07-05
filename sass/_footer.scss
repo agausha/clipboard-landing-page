@@ -57,5 +57,7 @@
 /////////////////////////////////////////////////
 //MEDIA QUERIES
 @media screen and (max-width: $bp-large) {
-  .footer {}
+  .footer {
+    flex-direction: column;
+  }
 }
