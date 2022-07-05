@@ -44,17 +44,17 @@
 @media screen and (max-width: $bp-small) {
 .container .header {
   background: url('/images/bg-header-mobile.png') no-repeat top / contain;
+  }
 }
-}
-  .container .header {
-  &__title {
+
+ .container .header {
     @media screen and (max-width: $bp-medium) {
+    &__title {
       font-size: $fs-xlarge;
       max-width: 80%;
     }
-  }
-  &__text {
-    @media screen and (max-width: $bp-medium) {
+  
+    &__text {
       max-width: 93%;
       margin: 1.5rem;
     }
