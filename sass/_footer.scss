@@ -47,7 +47,9 @@
   &__icon {
     padding: 1rem;
     &:hover {
-      path {}
+      path {
+        fill: $color-primary-strong-cyan;
+      }
     }
   }
 }
