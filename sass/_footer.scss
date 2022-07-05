@@ -32,6 +32,8 @@
     color: $color-neutral-dark-Grayish-blue;
     padding: 2rem;
 
-    &:hover {}
+    &:hover {
+      color: $color-primary-strong-cyan;
+    }
   }
 }
