@@ -12,5 +12,7 @@
     height: 6rem;
   }
 
-  &__navbar{}
+  &__navbar{
+    display: flex;
+  }
 }
