@@ -411,7 +411,7 @@ body {
 }
 
 .footer__icon {
-  padding: 1rem;
+  margin: 1.5rem;
 }
 
 .footer__icon:hover path {
