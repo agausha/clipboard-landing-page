@@ -70,8 +70,7 @@ body {
 }
 
 .track__images {
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 100%;
 }
 
 .track__description {
