@@ -6,7 +6,6 @@
   margin-top: 5rem;
 
   &__logo {
-    margin-top: 1rem;
     margin-right: 10rem;
     width: 7rem;
     height: 7rem;
@@ -24,7 +23,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2.5rem 0.5rem;
     font-size: $fs-large-1;
-    margin-top: 3rem;
   }
 
   &__link {
