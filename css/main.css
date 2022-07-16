@@ -81,7 +81,7 @@ body {
 }
 
 .track__title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 600;
   color: #4c545d;
   margin-top: 2rem;
@@ -181,7 +181,7 @@ body {
 }
 
 .workflow__title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: center;
   font-weight: 600;
   color: #4c545d;
@@ -333,7 +333,7 @@ body {
 
 @media screen and (max-width: 950px) {
   .apple__title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 0.1rem;
     width: 70%;
   }
@@ -382,7 +382,7 @@ body {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.5rem 4rem;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-left: 5rem;
 }
 
