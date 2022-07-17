@@ -190,46 +190,46 @@
 //MEDIA QUERIES
 
 .track {
-  @media screen and (max-width: $bp-medium) {
-    &__detail {
-      max-width: 93%;
-    }
-
-    &__title--main {
-      font-size: $fs-xlarge;
-    }
-
-    &__text--main {
-      margin: 0.4rem;
-    }
-  }
-
   @media screen and (max-width: $bp-larger) {
-    &__items {
-      flex-direction: column;
-      text-align: center;
-      max-width: 100%;
-      margin: auto 0;
-    }
-  
-    &__images {
-      margin: 2rem;
-      padding: 3rem;
-    }
-  
-    &__description {
-      margin-top: 2rem;
-      width: 40%;
+      &__items {
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        margin: auto 0;
+      }
+    
+      &__images {
+        margin: 2rem;
+        padding: 3rem;
+      }
+    
+      &__description {
+        margin-top: 2rem;
+        width: 40%;
+      }
+
+      &__title {
+        margin-left: -5rem;
+      }
+
+      &__text {
+        max-width: 100%;
+      }
+
+    @media screen and (max-width: $bp-medium) {
+      &__detail {
+        max-width: 93%;
+      }
+
+      &__title--main {
+        font-size: $fs-xlarge;
+      }
+
+      &__text--main {
+        margin: 0.4rem;
+      }
     }
 
-    &__title {
-      margin-left: -5rem;
-    }
-
-    &__text {
-      margin-left: -5rem;
-      max-width: 100%;
-    }
   }
 }
 
