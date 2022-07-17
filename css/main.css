@@ -250,10 +250,6 @@ body {
 
 @media screen and (max-width: 1200px) {
   .track__items {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     text-align: center;
     max-width: 100%;
     margin: auto 0;
