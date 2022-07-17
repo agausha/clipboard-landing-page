@@ -383,7 +383,7 @@ body {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.5rem 4rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin-left: 5rem;
 }
 
