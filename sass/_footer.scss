@@ -57,6 +57,7 @@
 //MEDIA QUERIES
 @media screen and (max-width: $bp-large) {
   .footer {
+    padding: 1rem;
 
     &__logo {
       margin-left: 7rem;

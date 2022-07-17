@@ -418,6 +418,9 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .footer {
+    padding: 1rem;
+  }
   .footer__logo {
     margin-left: 7rem;
     margin-top: 5rem;
