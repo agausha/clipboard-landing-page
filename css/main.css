@@ -262,6 +262,9 @@ body {
     margin-top: 2rem;
     width: 40%;
   }
+  .track__title {
+    text-align: left;
+  }
   .track__text {
     max-width: 100%;
   }
