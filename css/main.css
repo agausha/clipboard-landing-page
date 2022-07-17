@@ -271,6 +271,7 @@ body {
   }
   .track__images {
     margin: 2rem;
+    padding: 3rem;
   }
   .track__description {
     margin-top: 2rem;
