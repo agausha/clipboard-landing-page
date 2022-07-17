@@ -81,5 +81,9 @@
     &__icon {
       padding: 2rem;
     }
+    @media screen and (max-width: $bp-small) {
+     
+    }
   }
 }
+
