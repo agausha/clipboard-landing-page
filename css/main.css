@@ -433,6 +433,7 @@ body {
   }
   .footer__logo {
     margin-left: 13rem;
+    margin-top: 5rem;
   }
   .footer__item {
     -ms-grid-columns: 1fr;
