@@ -266,9 +266,6 @@ body {
     margin-top: 2rem;
     width: 40%;
   }
-  .track__title {
-    margin-left: -5rem;
-  }
   .track__text {
     max-width: 100%;
   }
