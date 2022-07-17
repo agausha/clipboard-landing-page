@@ -449,6 +449,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) and (max-width: 600px) {
+  .footer {
+    padding: 1rem;
+  }
+}
+
 .container .logo {
   margin-top: 12rem;
 }
