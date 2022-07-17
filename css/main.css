@@ -432,7 +432,7 @@ body {
             flex-direction: column;
   }
   .footer__logo {
-    margin-left: 10rem;
+    margin-left: 13rem;
   }
   .footer__item {
     -ms-grid-columns: 1fr;
