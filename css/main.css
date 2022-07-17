@@ -255,6 +255,7 @@ body {
     margin: auto 0;
   }
   .track__images {
+    width: 70%;
     margin: 2rem;
     padding: 3rem;
   }
