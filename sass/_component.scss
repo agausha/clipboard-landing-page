@@ -213,6 +213,7 @@
 
       &__text {
         max-width: 100%;
+        text-align: justify;
       }
 
     @media screen and (max-width: $bp-medium) {
