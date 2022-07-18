@@ -479,6 +479,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .footer__item {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 1000px) and (max-width: 600px) {
