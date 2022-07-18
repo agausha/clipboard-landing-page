@@ -291,6 +291,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .track__images {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 950px) {
