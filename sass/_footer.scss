@@ -80,6 +80,10 @@
 
     @media screen and (max-width: $bp-medium-1) {
       flex-direction: column;
+
+      &__navbar {
+        flex-direction: column;
+      }
     }
 
     @media screen and (max-width: $bp-small) {
