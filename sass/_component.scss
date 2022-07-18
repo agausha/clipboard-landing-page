@@ -234,10 +234,16 @@
       &__items {
         flex-direction: column;
       }
+
       &__images {
         width: 90%;
       }
+
       &__title {
+        text-align: center;
+      }
+
+      &__text {
         text-align: center;
       }
     }

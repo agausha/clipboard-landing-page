@@ -297,6 +297,9 @@ body {
   .track__title {
     text-align: center;
   }
+  .track__text {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 950px) {
