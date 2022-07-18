@@ -77,6 +77,11 @@
     &__icon {
       padding: 0.5rem;
     }
+
+    @media screen and (max-width: $bp-medium-1) {
+      
+    }
+
     @media screen and (max-width: $bp-small) {
       padding: 1rem;
     }
