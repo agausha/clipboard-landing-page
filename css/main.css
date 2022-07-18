@@ -294,6 +294,9 @@ body {
   .track__images {
     width: 90%;
   }
+  .track__description {
+    width: 70%;
+  }
   .track__title {
     text-align: center;
   }
