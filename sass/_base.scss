@@ -30,6 +30,19 @@ $color-neutral-very-pale-blue: hsl(207, 100%, 98%);
 $color-neutral-white: hsl(0, 0%, 100%);
 
 /////////////////////////////////////////
+//CSS RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  align-items: center;
+  max-width: 100%;
+}
+
+/////////////////////////////////////////
 //FONT SIZE VARIABLES
 $fs-small: 1.6rem;
 $fs-medium: 1.7rem;
@@ -55,19 +68,7 @@ $bp-medium: 950px;
 $bp-medium-1: 820px;
 $bp-small: 600px;
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  border: 0;
-  align-items: center;
-  max-width: 100%;
-}
-
 html {
-  box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
 }
 
